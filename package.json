@@ -1,0 +1,20 @@
+{
+  "name": "@jabelic/jgit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "deno run index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jabelic/jgit.git"
+  },
+  "dependencies": {
+    "consola": "^3.2.3"
+  }
+}
