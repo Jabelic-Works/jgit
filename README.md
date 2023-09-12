@@ -1,16 +1,21 @@
 # JabGit
 
-## global config
+Gitのwrapper. 理想的なやつをつくる.
+
+対応: GitHub
+
+## config
+
+### global 
 
 - account name: string
-- workspace
+- workspaces
   - name: string
   - Connection method: https, ssh
 
 git@github.com:Jabelic-Works/jgit.git
 
-
-## local config
+### local 
 
 - repository name: string
 - Connection method?: https, ssh
@@ -23,6 +28,8 @@ Conventional Process
 - git add < filename >
 - git commit -b "commitment"
 - git push origin  < branchname >
+
+
 
 ## initial git commitment
 
