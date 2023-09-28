@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev": "deno run index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "deno run --allow-read --allow-write --allow-run index.ts",
+    "test": "deno test --allow-read --allow-write --allow-run test/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +13,5 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:jabelic/jgit.git"
-  },
-  "dependencies": {
-    "consola": "^3.2.3"
   }
 }

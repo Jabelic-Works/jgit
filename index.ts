@@ -1,3 +1,8 @@
+import { log } from "./src/git.ts";
+
 (async () => {
-  console.log("Consola");
+  log({
+    count: 10,
+    oneline: false,
+  });
 })();
