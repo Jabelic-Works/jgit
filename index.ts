@@ -1,3 +1,4 @@
+import consola from "npm:consola";
 (async () => {
-  console.log("Consola");
+  consola.log("Consola!");
 })();

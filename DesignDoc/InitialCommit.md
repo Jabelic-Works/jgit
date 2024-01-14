@@ -1,4 +1,3 @@
-
 # initial git commitment
 
 Conventional Process
@@ -13,11 +12,10 @@ Conventional Process
 
 jgit process
 
-- jgit 
+- jgit
   - initial y/n
-    - .gitがないことを検知して,表示. nで何もしない. yで進む.
-  - repository name: 
+    - .git がないことを検知して,表示. n で何もしない. y で進む.
+  - repository name:
     - 入力
   - origin: 自動で生成して, それで正しいかを確認する y/n
-
-
+  -

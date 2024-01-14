@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev": "deno run index.ts",
+    "dev": "deno run --allow-read index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
